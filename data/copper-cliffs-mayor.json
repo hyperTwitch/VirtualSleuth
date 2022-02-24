@@ -1,0 +1,392 @@
+{
+	"online-access": [
+		{
+			"box": 1,
+			"url": "keep-safe-pro.com",
+			"password": "TRAPD00R"
+		}
+	],
+	"crime": {
+		"victim": "{people[1]}",
+		"helpRequestFrom": "{people[2]}",
+		"location": "{locations[1]}",
+		"time": "Wednesday night",
+		"perpetrator": ""
+	},
+	"clues": [
+		{
+			"id": 1,
+			"description": "map",
+			"pictures": [],
+			"box": 1
+		}
+	],
+	"locations": [
+		{
+			"id": 1,
+			"name": "Public Library Restroom",
+			"location": "{locations[6]}",
+			"address": ""
+		},
+		{
+			"id": 2,
+			"name": "TFC Campaign Offices",
+			"location": "Town Center",
+			"address": "5 Coulter Road"
+		},
+		{
+			"id": 3,
+			"name": "Richards Campaign Offices",
+			"location": "Brass Gardens",
+			"address": "7 Brittlebush Road"
+		},
+		{
+			"id": 4,
+			"name": "Mendoza's Flowers",
+			"location": "Town Center",
+			"address": "211 Main Street"
+		},
+		{
+			"id": 5,
+			"name": "Cross family mansion",
+			"location": "Paris Green",
+			"address": "1 Cross Street"
+		},
+		{
+			"id": 6,
+			"name": "Public Library",
+			"location": "Paris Green",
+			"address": ""
+		},
+		{
+			"id": 7,
+			"name": "Country Club",
+			"location": "Cuprite Fields",
+			"address": ""
+		},
+		{
+			"id": 8,
+			"name": "Cross Street Park",
+			"location": "Malachite Springs",
+			"address": ""
+		},
+		{
+			"id": 9,
+			"name": "Center for Convalescence",
+			"location": "Paris Green",
+			"address": "8 Chuparosa Drive"
+		},
+		{
+			"id": 10,
+			"name": "Richards' Home",
+			"location": "Paris Green",
+			"address": "13 Yellow Hyacinth Avenue"
+		}
+	],
+	"people": [
+		{
+			"id": 1,
+			"name": "Ashley Mendoza",
+			"nickname": "",
+			"occupation": "journalist",
+			"worksAt": "",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": [
+				"On dating apps",
+				"Favorite movie: 'Sneakers'",
+				"Working on big article related to the election",
+				"Worried about getting others in danger due to article she was working on",
+				"Lifetime resident of Copper Cliffs, AZ",
+				"Favorite flower: aster"
+			]
+		},
+		{
+			"id": 2,
+			"name": "Frannie Rollins",
+			"nickname": "",
+			"occupation": "IT specialist",
+			"worksAt": "{locations[2]}",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": [
+				"Favorite movie: 'Sneakers'"
+			]
+		},
+		{
+			"id": 3,
+			"name": "Thomas Ford Cross",
+			"nickname": "TFC; 'The Liar'",
+			"occupation": "Copper Cliffs Mayor",
+			"worksAt": "{locations[2]}",
+			"livesAt": "{locations[5]}",
+			"birthday": "",
+			"picture": "",
+			"notes": [
+				"Considered a strong speaker, liar, and terrible at job (according to {people[2]})",
+				"Re-election platform: pro-environment, pro-local business",
+				"Family founded town in 1891",
+				"Family owned copper mines dried up in the 90's leading to heavy monetary losses",
+				"Becoming Mayor likely isn't his end goal, trying to get family back 'on top'"
+			]
+		},
+		{
+			"id": 4,
+			"name": "Harold Richards",
+			"nickname": "Harry; 'The Fake'",
+			"occupation": "Millionaire socialite running for Mayor",
+			"worksAt": "{locations[3]}",
+			"livesAt": "{locations[10]}",
+			"birthday": "",
+			"picture": "",
+			"notes": [
+				"Election platform: {people[3]} is terrible at his job",
+				"Son of wealthy, well-respected doctor",
+				"Doesn't speak much about {events[3]}"
+			]
+		},
+		{
+			"id": 5,
+			"name": "Judith Richards",
+			"nickname": "'The Aggressor'",
+			"occupation": "Head of Campaign Security",
+			"worksAt": "{locations[3]}",
+			"livesAt": "{locations[10]}",
+			"birthday": "",
+			"picture": "",
+			"notes": [
+				"Retired cop with many accolades and with friends still on the force",
+				"Didn't like Ashley (according to {people[2]})",
+				"Power hungry and entitled (according to {people[2]})",
+				"Retired early to raise family"
+			]
+		},
+		{
+			"id": 6,
+			"name": "Reggie Mendoza",
+			"nickname": "",
+			"occupation": "",
+			"worksAt": "",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": [
+				"Favorite flower: aster"
+			]
+		},
+		{
+			"id": 7,
+			"name": "Imelda Mendoza",
+			"nickname": "",
+			"occupation": "Owner and Florist",
+			"worksAt": "{locations[4]}",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": []
+		},
+		{
+			"id": 8,
+			"name": "Raul Mendoza",
+			"nickname": "",
+			"occupation": "Owner and Florist",
+			"worksAt": "{locations[4]}",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": []
+		},
+		{
+			"id": 9,
+			"name": "Sebastian Dyer",
+			"nickname": "'The Pushover'",
+			"occupation": "Personal Assistant",
+			"worksAt": "{locations[2]}",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": [
+				"Same job for about 10 years",
+				"Considered a 'pushover' (according to {people[1]})",
+				"TFC's 'ventriloquist dummy' (according to {people[1]})"
+			]
+		},
+		{
+			"id": 10,
+			"name": "Kim Barton",
+			"nickname": "'The Boss'",
+			"occupation": "Campaign Manager",
+			"worksAt": "{locations[2]}",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": [
+				"Legal background",
+				"Moved here for mother who lives at the {locations[9]}",
+				"Diligent worker",
+				"Intimidating temperament"
+			]
+		},
+		{
+			"id": 11,
+			"name": "Lewis Vanzetti",
+			"nickname": "'The ex-Con'",
+			"occupation": "",
+			"worksAt": "{locations[3]}",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": [
+				"Not close with {people[5]}"
+			]
+		},
+		{
+			"id": 12,
+			"name": "Isabel King",
+			"nickname": "",
+			"occupation": "Deceased",
+			"worksAt": "",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": []
+		},
+		{
+			"id": 13,
+			"name": "Morgana Wilkes",
+			"nickname": "",
+			"occupation": "Deceased",
+			"worksAt": "",
+			"livesAt": "",
+			"birthday": "",
+			"picture": "",
+			"notes": []
+		}
+	],
+	"relationships": [
+		{
+			"id": 1,
+			"partyA": "{people[2]}",
+			"association": "works for",
+			"partyB": "{people[3]}"
+		},
+		{
+			"id": 2,
+			"partyA": "{people[3]}",
+			"association": "running against",
+			"partyB": "{people[4]}"
+		},
+		{
+			"id": 3,
+			"partyA": "{people[2]}",
+			"association": "information source for and friends with",
+			"partyB": "{people[1]}"
+		},
+		{
+			"id": 4,
+			"partyA": "{people[4]}",
+			"association": "married to",
+			"partyB": "{people[5]}"
+		},
+		{
+			"id": 5,
+			"partyA": "{people[4]}",
+			"association": "works for",
+			"partyB": "{people[5]}"
+		},
+		{
+			"id": 6,
+			"partyA": "{people[6]}",
+			"association": "brother of",
+			"partyB": "{people[1]}"
+		},
+		{
+			"id": 7,
+			"partyA": "{people[7]}",
+			"association": "mother of",
+			"partyB": "{people[1]}"
+		},
+		{
+			"id": 8,
+			"partyA": "{people[8]}",
+			"association": "father of",
+			"partyB": "{people[1]}"
+		},
+		{
+			"id": 9,
+			"partyA": "{people[3]}",
+			"association": "former childhood friends",
+			"partyB": "{people[4]}"
+		},
+		{
+			"id": 10,
+			"partyA": "{people[9]}",
+			"association": "works for",
+			"partyB": "{people[3]}"
+		},
+		{
+			"id": 11,
+			"partyA": "{people[10]}",
+			"association": "works for",
+			"partyB": "{people[3]}"
+		},
+		{
+			"id": 12,
+			"partyA": "{people[11]}",
+			"association": "old friends with",
+			"partyB": "{people[4]}"
+		}
+	],
+	"events": [
+		{
+			"id": 1,
+			"peopleInvolved": [
+				"{people[4]}"
+			],
+			"location": "{locations[7]}",
+			"date": "1st and 3rd Wednesday",
+			"time": "9 - 10",
+			"description": "Bimonthly Brunch",
+			"pictures": []
+		},
+		{
+			"id": 2,
+			"peopleInvolved": [
+				"{people[3]}"
+			],
+			"location": "{locations[8]}",
+			"date": "3rd Wednesday",
+			"time": "8 - 10",
+			"description": "Copper Cliffs Cleanup Crew",
+			"pictures": []
+		},
+		{
+			"id": 3,
+			"peopleInvolved": [
+				"{people[4]}",
+				"{people[11]}",
+				"{people[12]}",
+				"{people[13]}"
+			],
+			"location": "",
+			"date": "",
+			"time": "",
+			"description": "{people[11]} killed {people[12]} and {people[13]} in a drunk driving accident",
+			"pictures": []
+		},
+		{
+			"id": 4,
+			"peopleInvolved": [
+				"{people[1]}",
+				"{people[5]}"
+			],
+			"location": "",
+			"date": "",
+			"time": "",
+			"description": "Ashley filed for a restraining order against Judith",
+			"pictures": []
+		}
+	]
+}
